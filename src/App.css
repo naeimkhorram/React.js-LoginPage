@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("background.jpg");
+}
+
+nav {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 10vh;
+  background-color: rgb(74, 90, 95);
+  color: white;
+}
+
+.nav-links {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  transition: all .3s ease-in;
+}
+
+li {
+  color: black;
+}
+button:hover{
+  background-color: blue;
+
+}
+.loginDiv {
+  border-radius: 20px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: rgba(10, 10, 10, 0.664);
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 20em;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.loginButton {
+  color: black;
+  width: 90px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgb(47, 193, 212);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loginButton:hover {
+  color : white
+}
+
+.HomeDiv {
+  background: linear-gradient(270deg, #3e6fb2, #833eb2, #3eb26b, #27a393);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  padding-top: 30px;
+  padding-bottom: 205px;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  box-shadow: 1px 4px 5px 12px grey;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.homeH1 {
+  margin-top: 20%;
+}
+
+.loginH3{
+  margin-top:-5px;
+  color: white;
+}
+
+.headerH3{
+  margin-left: 5%;
+}
+
+.signupDiv {
+  border-radius: 20px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 50px;
+  padding-top: 55px;
+  padding-bottom: 27px;
+  background-color: rgba(10, 10, 10, 0.664);
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 667px) and (min-width: 375px)  {
+    .signupDiv{
+       margin-right: 1px;
+       margin-left: -1px;
+     
+    }
+    body{
+     height: 1000px;
+    }
+
+    button{
+      margin : 0 5px;
+    }
+}
